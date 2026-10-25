@@ -5,39 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
-
 <body>
-    <h1>Calculator</h1>
     <div class="calculator">
+        <input type="text" class="display" value="0" readonly>
 
-        <div class="display">
-            
+        <div class="top-row">
+            <button class="clear">AC</button>
+            <button>⌫</button>
+            <button>%</button>
+            <button>÷</button>
         </div>
-
-        <div class="buttons">
-            <button class="top-row">c</button>
-            <button class="top-row">÷</button>
-            <button class="top-row">×</button>
-            <button class="top-row">⌫</button>
-            <button>7</button>
+        
+        <div><button>7</button>
             <button>8</button>
             <button>9</button>
-            <button class="operator">-</button>
+            <button class="multiplication">×</button>
+        </div>
+
+        <div>
             <button>4</button>
             <button>5</button>
             <button>6</button>
-            <button class="operator">+</button>
+            <button class="subtraction">-</button>
+        </div>
+
+        <div>
             <button>1</button>
             <button>2</button>
             <button>3</button>
-            <button class="operator equals">=</button>
+            <button class="addition">+</button>
+        </div>
+
+        <div>
             <button class="zero">0</button>
             <button>.</button>
+            <button class="equal">=</button>
         </div>
 
     </div>
-   <script src="script.js"></script> 
+    <script src="script.js"></script>
 </body>
 </html>
