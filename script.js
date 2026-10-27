@@ -5,7 +5,7 @@ function calculate(expression) {
     expression = expression.replaceAll(" ", "");
     expression = expression.replaceAll("×", "*");
     expression = expression.replaceAll("÷", "/");
-    expression = expression.replace(/√(\d+(\.\d+)?)/, "sqrt($1)");
+    expression = expression.replace(/√(\d+(\.\d+)?)/g, "sqrt($1)");
 
     if (/[+*/]{2}|-{2}/.test(expression)) {
         throw new Error("Invalid expression");
