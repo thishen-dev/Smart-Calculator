@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #EFF6FF, #EDE9FE, #DBEAFE);
+    background: linear-gradient(135deg, #B8DDF5, #C9C5F0, #DCC5E8, #F2D6E6);
     font-family: Arial, sans-serif;
 
 }
@@ -36,6 +36,7 @@ body {
 .display:focus {
     outline: none;
 }
+
 button {
     height: 65px;
     width: 65px;
@@ -43,7 +44,7 @@ button {
     margin: 6px;
     border-radius: 50px;
     background: #F1F5F9;
-    color: #222;
+    color: #000000;
     font-size: 18px;
     cursor: pointer; 
     transition: transform 0.2s, background-color 0.2s;
@@ -57,7 +58,6 @@ button {
 
 .top-row button, .multiplication, .subtraction, .addition {
     background: #DBEAFE;
-
 }
 
 .equal {
@@ -66,11 +66,10 @@ button {
 }
 
 button:hover {
-    background-color:#BFDBFE;
+    background-color: #BFDBFE;
     transform: scale(1.08); 
 }
 
 .equal:hover {
     background-color: #1E40AF;
-
 }
