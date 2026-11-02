@@ -20,7 +20,7 @@ A web-based calculator built using **HTML5, CSS3, and JavaScript**, with Math.js
 - ⌫ Delete the last character using Backspace
 - 🧹 Clear the display using the AC button or Escape key
 - ⚠️ Displays an error message when a calculation fails
-- 🎨 Blue and purple gradient background with rounded buttons and hover animations
+- 🎨 Soft blue, purple, and pink gradient background with rounded buttons and hover animations
 
 ---
 
@@ -41,6 +41,7 @@ Smart-Calculator/
 ├── index.html
 ├── style.css
 ├── script.js
+├── calculator.jpg
 └── README.md
 ```
 
